@@ -1,0 +1,33 @@
+:root {
+    --general-text: #000;
+}
+
+html {
+
+}
+
+body {
+    font-family: "Segoe UI", "Arial", sans-serif;
+    color: var(--general-text);
+    background: #F6F6FA;
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex-grow: 1;
+    
+}
+
+.container {
+    max-width: 1382px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
